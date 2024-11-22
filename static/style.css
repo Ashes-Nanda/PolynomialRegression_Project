@@ -1,0 +1,79 @@
+/* General reset for consistent appearance */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body background and alignment */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container styling */
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 30px 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+/* Form heading styling */
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Input fields styling */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+/* Placeholder text color */
+form input::placeholder {
+    color: #ddd;
+}
+
+/* Button styling */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #2575fc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+form button:hover {
+    background: #6a11cb;
+}
+
+/* Results styling */
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
